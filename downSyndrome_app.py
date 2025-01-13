@@ -3,9 +3,10 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array, load_img
 from PIL import Image
+import os
 
 # Load the pre-trained model
-MODEL_PATH = "downSynd_model.h5"
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "downSynd_model.h5")
 model = load_model(MODEL_PATH)
 
 # App title
