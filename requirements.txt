@@ -3,3 +3,8 @@ requests
 matplotlib
 pandas
 biopython
+tensorflow
+streamlit
+tensorflow
+numpy
+pillow
